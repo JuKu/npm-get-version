@@ -19,8 +19,8 @@ describe("getVersion()", () => {
     expect(versionArr.length).toBe(3);
   });
 
-  it("should return 1.0.6", async () => {
+  it("should return 1.1.0", async () => {
     // update this on version upgrades
-    expect(await getVersion()).toBe("1.0.6");
+    expect(await getVersion()).toBe("1.1.0");
   })
 });
