@@ -1,4 +1,4 @@
-module.exports = async function getVersion() {
+export function getVersion(): Promise<string> {
   const promise1 = new Promise<string>((resolve, reject) => {
     const filePath = process.cwd() + "/package.json";
 

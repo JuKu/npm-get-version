@@ -1,4 +1,4 @@
-const getVersion = require("../src/get-own-version");
+const {getVersion} = require("../src/get-own-version");
 
 describe("getVersion()", () => {
   it("should be defined", async () => {
@@ -19,8 +19,8 @@ describe("getVersion()", () => {
     expect(versionArr.length).toBe(3);
   });
 
-  it("should return 1.0.1", async () => {
+  it("should return 1.0.2", async () => {
     // update this on version upgrades
-    expect(await getVersion()).toBe("1.0.1");
+    expect(await getVersion()).toBe("1.0.2");
   })
 });
