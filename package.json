@@ -1,6 +1,6 @@
 {
   "name": "get-own-version",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Get the current version from own package.json",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

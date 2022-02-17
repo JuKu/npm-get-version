@@ -4,7 +4,7 @@ export function getVersion(): Promise<string> {
 
     const fs = require("fs");
 
-    fs.readFile(filePath, 'utf8', function(error, content) {
+    fs.readFile(filePath, 'utf8', function(error: any, content: string) {
       if (error) {
         // cannot find or open package.json
         console.warn("Cannot find package.json: " + process)
