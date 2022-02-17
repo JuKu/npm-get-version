@@ -1,0 +1,33 @@
+{
+  "name": "get-own-version",
+  "version": "1.0.0",
+  "description": "Get the current version from own package.json",
+  "main": "dist/get-own-version.js",
+  "types": "dist/get-own-version.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "publish": "tsc & npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuKu/npm-get-version.git"
+  },
+  "keywords": [
+    "version"
+  ],
+  "author": "Justin Kuenzel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuKu/npm-get-version/issues"
+  },
+  "homepage": "https://github.com/JuKu/npm-get-version#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.5.0"
+  }
+}
